@@ -3,12 +3,12 @@
     "description": "This library will return string hellow world;",
     "type": "library",
     "license": "MIT",
-	"authors": {
+	"authors": [
 		{
 			"name":"santosh",
 			"email":"santoshgorale@gmail.com"
 		}
-	},
+	],
 	"autoload": {
 		"psr-4": {
 			"HelloWorld\\":"/"
