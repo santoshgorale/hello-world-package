@@ -6,6 +6,6 @@
 3. create new php file and past below code in the file and uncomment it
 4. run index.php
 
-// require_once './vendor/autoload.php';
-// $objHelloWorld = new \HelloWorld\HelloWorld();
-// echo  $objHelloWorld->display();
+require_once './vendor/autoload.php';
+$objHelloWorld = new \HelloWorld\HelloWorld();
+echo  $objHelloWorld->display();
